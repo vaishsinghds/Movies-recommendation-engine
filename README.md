@@ -22,7 +22,8 @@ Import Required Libraries: Import the necessary libraries for data manipulation,
 
 Import Data: Import the movie ratings data. The code provided utilizes a sample dataset (ratings_small.csv) containing user ratings for various movies.
 
-![Screenshot 2024-04-04 232954](https://github.com/vaishsinghds/Movies-recommendation-engine/assets/161769968/529538be-0318-40b4-9a33-02f1649eae4a)
+
+![Screenshot 2024-04-06 003639](https://github.com/vaishsinghds/Movies-recommendation-engine/assets/161769968/d024b979-d8f7-4cd2-b9d1-2752e0bb4c51)
 
 
 Exploratory Data Analysis (EDA): Explore the dataset to understand its structure and distribution of ratings. Visualizations such as histograms are used to analyze the distribution of ratings by users and items (movies).
