@@ -1,14 +1,20 @@
 # Movie Recommendation Engine
 
-This Python project is a movie recommendation engine that utilizes collaborative filtering techniques to suggest movies to users based on their past ratings.
+## Introduction
 
-## Installation
+Welcome to the Movie Recommendation Engine! This Python project leverages collaborative filtering techniques to suggest personalized movie recommendations based on user ratings. Utilizing a dataset of user interactions with various movies, including ratings and preferences, the recommendation engine aims to enhance the movie-watching experience by providing tailored suggestions.
 
-To run the recommendation engine, you need to install the required libraries. You can do this using pip:
+## About the Dataset
 
+The dataset used in this project (ratings_small.csv) contains user ratings for a selection of movies. Each entry includes the user ID, movie ID, and corresponding rating. By analyzing this dataset and employing collaborative filtering algorithms, the recommendation engine identifies patterns and similarities between users and movies to generate accurate and relevant recommendations.
 
-pip3 install numpy
-pip3 install scikit-surprise
+## How It Works
+
+Data Exploration: The project begins with an exploration of the dataset to understand its structure and distribution of ratings. Visualizations help analyze user preferences and identify trends.
+
+Model Training: Collaborative filtering models, such as Singular Value Decomposition (SVD) and its variants, are trained on the dataset to learn user preferences and movie features.
+
+Recommendation Generation: Once trained, the models generate personalized movie recommendations for users based on their past ratings and similarities to other users.
 
 ## Usage
 
